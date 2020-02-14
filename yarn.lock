@@ -1246,6 +1246,13 @@
     hoist-non-react-statics "^3.2.1"
     lodash.merge "^4.6.1"
 
+"@ui-kitten/eva-icons@^4.4.0":
+  version "4.4.0"
+  resolved "https://registry.npm.taobao.org/@ui-kitten/eva-icons/download/@ui-kitten/eva-icons-4.4.0.tgz#49c41a1cca9a9a4815374b9dc4f94317910616cf"
+  integrity sha1-ScQaHMqamkgVN0udxPlDF5EGFs8=
+  dependencies:
+    react-native-eva-icons "1.1.0"
+
 "@unimodules/core@~5.0.0":
   version "5.0.0"
   resolved "https://registry.npm.taobao.org/@unimodules/core/download/@unimodules/core-5.0.0.tgz#e1e3ca3f91f3d27dbc93c6eebc03a40c711da755"
@@ -4344,6 +4351,11 @@ react-is@^16.12.0, react-is@^16.7.0, react-is@^16.8.1, react-is@^16.8.4:
   version "16.12.0"
   resolved "https://registry.npm.taobao.org/react-is/download/react-is-16.12.0.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Freact-is%2Fdownload%2Freact-is-16.12.0.tgz#2cc0fe0fba742d97fd527c42a13bec4eeb06241c"
   integrity sha1-LMD+D7p0LZf9UnxCoTvsTusGJBw=
+
+react-native-eva-icons@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.npm.taobao.org/react-native-eva-icons/download/react-native-eva-icons-1.1.0.tgz#323e55d759187edc216d049e7c0012a27383e0ed"
+  integrity sha1-Mj5V11kYftwhbQSefAASonOD4O0=
 
 react-native-gesture-handler@1.5.3:
   version "1.5.3"

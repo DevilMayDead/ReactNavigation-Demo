@@ -17,7 +17,7 @@ interface SafeAreaLayoutProps extends LayoutProps {
 
 export type SafeAreaLayoutElement = React.ReactElement<SafeAreaLayoutProps>;
 
-function SafeAreaLayoutComponent(props: SafeAreaLayoutProps): LayoutElement {
+export function SafeAreaLayout(props: SafeAreaLayoutProps): LayoutElement {
     const safeAreaInsets: EdgeInsets = useSafeArea();
     const {insets, style, ...layoutProps} = props;
 
@@ -40,5 +40,3 @@ function SafeAreaLayoutComponent(props: SafeAreaLayoutProps): LayoutElement {
         <Layout {...layoutProps} style={[style, createInsets()]}/>
     );
 }
-
-export default SafeAreaLayoutComponent;
